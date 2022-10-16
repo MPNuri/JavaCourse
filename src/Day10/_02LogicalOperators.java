@@ -1,5 +1,9 @@
 package Day10;
 
+import Day11.MathClass;
+
+import java.util.Random;
+
 public class _02LogicalOperators {
     public static void main(String[] args) {
 
@@ -8,7 +12,10 @@ public class _02LogicalOperators {
 
 
         // if we use AND operator both condition must be true
-        int temperature = 25;
+        Random random = new Random();
+        int temperature;
+        temperature = random.nextInt(100);
+        System.out.println(temperature);
         boolean iswarm = temperature <30 && temperature > 20; //AND operator
 
         System.out.println(iswarm);
