@@ -51,6 +51,8 @@ public class MathClass {
 
 
 
+        int x = (int) (Math.random()* 4 -10  );
+        System.out.println(x);
 
 
 

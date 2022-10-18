@@ -7,7 +7,7 @@ public class _02_TernaryOperator {
         // this method is being used on very simple if else conditions
 
 
-        int income = 175_000;
+        int income = (int) (Math.random()*400000 -100000);
         // normally we go like this
 
       /*  if (income > 100_00)
@@ -17,7 +17,7 @@ public class _02_TernaryOperator {
         }
         */ // here is the shorter way
 
-
+        System.out.println(income);
         String incomeAndFlights = income > 100_000 ? "First class" : "Economy class";
         System.out.println(incomeAndFlights);
 
