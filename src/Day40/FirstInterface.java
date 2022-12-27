@@ -14,7 +14,7 @@ public interface FirstInterface {
      *
      * We cannot create set object --- Set<String> set = new Set<>();
      * Set is an interface to all type of sets -- hashSet, LinkedHashSet, treeSet.
-     -   in Set interface none of the methods are implemented. Each set implement methods differently.
+     -   in Set interface none of the methods are implemented. Each type of set implement methods differently.
      -   Also Set interface is extends by Collection Interface
 
      * All the variables in Interfaces are by default "Public", "Static", "Final"

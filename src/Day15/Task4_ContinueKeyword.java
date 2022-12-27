@@ -13,7 +13,7 @@ public class Task4_ContinueKeyword {
         for (int i = 0; i < number1; i ++) {
 
            if (i % 2 == 0)
-               continue;
+               continue; // will cut off the line for even numbers
             System.out.println(i);
         }
 

@@ -40,7 +40,7 @@ public abstract class Abstract {
 
      * we also cannot have ( public static abstract void anyMethod(); )
      -  because static keyword methods belong to class where it is written.
-     -  Since we will not be able to use in any other class it als would be useless
+     -  Since we will not be able to use in any other classes it would be useless
 
 
 

@@ -17,17 +17,40 @@ public class Arraylist_Task {
         //    count should be 2
 
 
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Orange");
+        fruits.add("Kiwi");
+        fruits.add("Peach");
+        fruits.add("Banana");
+        fruits.add("Orange");
 
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(getCount(fruits, "Orange"));
     }
+
+    static int getCount( ArrayList<String> fruits,String randomFruit ) {
+
+        int counter = 0;
+
+        for (int i = 0; i <fruits.size() ; i++) {
+            if (fruits.get(i).contains(randomFruit)) {
+                counter++;
+            }
+        }
+
+        return counter;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

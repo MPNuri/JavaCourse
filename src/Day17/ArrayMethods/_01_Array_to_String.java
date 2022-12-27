@@ -8,7 +8,11 @@ public class _01_Array_to_String {
         /**                  VERY IMPORTANTEE                  **/
 
         int[] arrayOfInts = new int[100];
+        String[] a = new String[2];
+        a[0] = "dsd";
+        a[1] = "ds";
 
+        System.out.println(Arrays.toString(a));
 
         arrayOfInts[0] = 100;
         arrayOfInts[99] = 9999;
